@@ -1,0 +1,104 @@
+.container-fluid {
+    background-color: #ebeaeae7;
+    /* height: 100vh; */
+}
+
+.navbar {
+    background-color: #ffffff;
+    margin-top: 5.5%;
+}
+
+.mainProfile{
+    position: absolute;
+    right: 10%;
+    top: 3%;
+}
+
+.content{
+height: 63.5rem;
+}
+
+.steven{
+    position: absolute;
+    right:6.5%;
+    top: 4.5%;
+    font-weight: 500;
+}
+
+.icons {
+    font-size: large;
+    margin-right: .5rem;
+}
+
+.mainBox{
+    margin-top: 2rem;
+    margin-left:18.2%;
+    width: 102rem;
+}
+
+.mand_info{
+    font-size: small;
+}
+
+.nurses{
+    margin-left: 15rem;
+    margin-top: 4rem;
+    font-size:2.4rem;
+    font-weight: 500;
+}
+
+.profileIcon{
+    margin-top: .8rem;
+    border-radius: 2rem;
+    border-color: violet;
+    margin-left:1rem;
+}
+
+.firstDiv{
+    height: 7rem;
+    width: 55rem;
+    border-radius: 1rem;
+    margin-top:2.5rem;
+    background-color: #ffffff;
+}
+
+.staff{
+    margin-left: 10rem;
+    margin-top: 4rem;
+    font-size:2.4rem;
+    font-weight: 500;
+}
+
+.heading{
+    font-size: 1.8rem;
+    margin-left: 1rem;
+}
+
+.detail{
+    font-size: 1.2rem;
+    display: block;
+    margin-left: 6rem;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color:rgb(21, 206, 21);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left:35rem;
+    margin-top: .8rem;
+  }
+  .dot1 {
+    height: 12px;
+    width: 12px;
+    background-color:red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left:32rem;
+    margin-top: .8rem;
+  }
+
+.available{
+    font-size:1.5rem;
+}

@@ -1,0 +1,118 @@
+.container-fluid {
+    background-color: #ebeaeae7;
+}
+
+.navbar {
+    background-color: #ffffff;
+    margin-top: 5.5%;
+}
+
+.description {
+    margin-top: 2%;
+    margin-left: 9%;
+    width: 25%;
+    border-radius: 1rem;
+    background-color: #EB5757;
+    height: 59rem;
+    color: #ffffff;
+    font-family: poppins;
+    float: left;
+}
+
+.sales {
+    font-weight: 700;
+    font-size: small;
+    margin-left: 3rem;
+}
+
+.mainBox {
+    width: 66%;
+    height: 64rem;
+    float: right;
+}
+
+.work1 {
+    background-color: white;
+    height: 25.5rem;
+    width: 40rem;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 1rem;
+}
+
+.workheading {
+    font-weight: 600;
+    margin-left: 3%;
+    margin-top: 10%;
+}
+
+.text {
+    margin-left: 5%;
+    font-size: small;
+    margin-top: 1rem;
+}
+
+.price {
+    margin-left: 5%;
+    font-size: x-large;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.workButton {
+    background-color: #EB5757;
+    margin-left: 60%;
+    margin-bottom: 10%;
+    color: #ffffff;
+    text-align: left;
+}
+
+.workButton1 {
+    background-color:#918c8c;
+    margin-left: 60%;
+    margin-bottom: 10%;
+    color: #ffffff;
+    text-align: left;
+}
+
+.icons {
+    font-size: large;
+    margin-right: .5rem;
+}
+
+.filter {
+    position: absolute;
+    right: 10%;
+    margin-top: 1%;
+}
+
+.expand_less {
+    margin-left: 30rem;
+    margin-top: 1.5rem;
+}
+
+.des_expand_less {
+    margin-left: 20rem;
+    margin-top: 3rem;
+}
+
+.Des_Button {
+    background-color:#ffffff;
+    margin-left: 58%;
+    margin-top: 7%;
+    color:black;
+    text-align: left;
+}
+
+.rounded-circle{
+    position: absolute;
+    right: 10%;
+    top: 3%;
+}
+
+.steven{
+    position: absolute;
+    right: 5.5%;
+    top: 4.5%;
+    font-weight: 500;
+}

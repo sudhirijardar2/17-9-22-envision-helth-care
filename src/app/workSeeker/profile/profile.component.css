@@ -1,0 +1,22 @@
+.shortProfile{
+    position: absolute;
+    right: 10%;
+    top: 3%;
+}
+
+.steven{
+    position: absolute;
+    right: 5.5%;
+    top: 4.5%;
+    font-weight: 500;
+}
+
+.mainProfile{
+    margin-top:4rem;
+}
+
+.content{
+    width: 110rem;
+    background-color: aqua;
+    margin-left: 24rem;
+}

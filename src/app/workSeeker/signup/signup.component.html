@@ -1,0 +1,125 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="divImage">
+      <img class="image" src="../../../assets/images/dibai2.jpg" />
+      <span class="royal">Royal Stock Images</span>
+      <i class="bi bi-lightning-charge-fill batteryicon"></i>
+      <div class="imageText">
+        <p style="margin-top: 14%" class="towertext">Best Stock Photos and</p>
+        <p class="towertext">Videos from across</p>
+        <p class="towertext">the internet.</p>
+      </div>
+      <i class="bi bi-lightning-charge-fill whiteBatteryIcon"></i>
+      <span class="imageEditor">Image Editor</span>
+    </div>
+    <div class="content" id="one">
+      <div class="spantext">
+        <span>have an account?</span
+        ><a routerLink="/login" style="text-decoration: none"
+          ><span class="upRighttext"> Sign in!</span></a
+        >
+      </div>
+      <div
+        style="
+          margin-top: 6%;
+          text-align: center;
+          width: 60%;
+          margin-left: 20%;
+          height: 72%;
+        "
+        class="form-check form-switch"
+      >
+        <h1 style="font-size: 2.3rem; font-style: normal; font-weight: 600">
+          Get Started With AppName
+        </h1>
+        <p
+          style="
+            font-weight: 700;
+            font-size: 1.5rem;
+            font-family: poppins;
+            color: #7e7e7e;
+          "
+        >
+          Getting started is easy
+        </p>
+        <form
+          method="post"
+          [formGroup]="registerForm"
+          class="form-group"
+          #signupForm="ngForm"
+          (ngSubmit)="onSubmit(signupForm.value)">
+          <!-- <small [class.text-danger]="msg.500">{{msg.message}}</small> -->
+          <!-- <span *ngIf="signupForm.invalid && signupForm.touched" style="color: red">please enter vlid</span> -->
+          <input
+            type="text"
+            name="name"
+            [(ngModel)]="signupForm.value.name" 
+            placeholder="Full Name"
+            class="form-control emailInput"
+            formControlName="name"/>
+          <span *ngIf="signupForm.invalid && signupForm.touched" style="color: red">please enter vlid</span>
+          <input
+            type="email"
+            [(ngModel)]="signupForm.value.email"
+            placeholder="Enter Email"
+            class="form-control emailInput"
+            name="email"
+            formControlName="email"/>
+            <div>
+            <span *ngIf="signupForm.invalid && signupForm.touched" style="color: red">please enter vlid</span>
+          </div>
+          <select
+            class="category form-control"
+            ngModel
+            formControlName="category"
+          > 
+            <option>Category</option>
+            <option value="0">Worker</option>
+            <option value="1">WorkProvider</option>
+          </select>
+          <input
+            [type]="changeType ? 'password' : 'text'"
+            [(ngModel)]="signupForm.value.password"
+            placeholder="Password"
+            class="form-control emailInput"
+            style="margin-bottom: 2%"
+            name="password"
+            formControlName="password"
+          /><span
+            class="eye"
+            (click)="viewPass()"
+            [ngClass]="
+              visible
+                ? 'glyphicon glyphicon-eye-open'
+                : 'glyphicon glyphicon-eye-close'
+            "
+          ></span>
+
+          <input
+            [type]="changeConfType ? 'password' : 'text'"
+            [(ngModel)]="signupForm.value.cpassword"
+            placeholder="Confirm Password"
+            class="form-control emailInput"
+            style="margin-bottom: 2%"
+            name="cpassword"
+            formControlName="cpassword"
+          /><span
+            class="eye"
+            (click)="viewConfPass()"
+            [ngClass]="
+              PassVisible
+                ? 'glyphicon glyphicon-eye-open'
+                : 'glyphicon glyphicon-eye-close'
+            "
+            class="confirmpass"
+          ></span>
+          <br />
+          <button class="button">Create Account</button>
+        </form>
+      </div>
+      <span class="text"
+        >By continuing you indicate that you read and agreed to</span
+      ><span class="term"> the Terms of Use</span>
+    </div>
+  </div>
+</div>

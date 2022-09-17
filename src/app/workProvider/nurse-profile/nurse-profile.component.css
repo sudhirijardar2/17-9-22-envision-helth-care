@@ -1,0 +1,73 @@
+.container-fluid {
+    background-color: #ebeaeae7;
+}
+
+.shortProfile{
+    position: absolute;
+    right: 10%;
+    top: 3%;
+}
+
+.steven{
+    position: absolute;
+    right: 5.5%;
+    top: 4.5%;
+    font-weight: 500;
+}
+
+.mainProfile{
+    margin-top:5rem;
+}
+
+.content{
+    height: 65.8rem;
+    }
+
+.mainBox{
+    margin-top: 3rem;
+    margin-left:18.2%;
+    width: 102rem;
+}
+
+.mand_info{
+    font-size: small;
+}
+
+
+label{
+    font-size:1rem;
+}
+
+input{
+    font-size:1.2rem;
+    padding: 2rem;
+}
+
+select{
+    font-size:1.2rem;
+    height: 4.2rem;
+}
+
+.form-control{
+    -webkit-appearance: auto;
+}
+.checkbox{
+    margin-top: 2.5rem;
+}
+
+.terms{
+    font-size:1.4rem !important;
+}
+
+.next{
+    width: 35rem;
+    padding: 1rem;
+    background-color: #EB5757;
+    border-radius: .5rem;
+    border-color: #EB5757;
+    color: #ffffff;
+}
+
+.submitDiv{
+margin-top: 5rem;
+}

@@ -1,0 +1,51 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="content " id="one">
+      <div class="spantext">
+        <span>Don't have an account?</span><a routerLink="signup" style="text-decoration:none;"><span
+            class="upRighttext"> Sign up!</span></a>
+      </div>
+      <div style="margin-top:15%;text-align: center;width:60%;margin-left: 20%;height:60%;"
+        class=" form-check form-switch ">
+        <h1 style="font-size:4rem;font-style: normal;font-weight: 650 !important;">Welcome Back</h1>
+        <p style="font-weight:500;font-size: 1.1rem;font-family:poppins">Login into your account</p>
+        
+        <form  class="form-group" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+          <div class="form-group">
+          <input type="email" placeholder="Email" class="form-control emailInput" formControlName="email">
+          <div *ngIf="loginForm.controls['email'].invalid && loginForm.controls['email'].touched" style="color: red" >
+            <div *ngIf="loginForm.controls['email'].errors?.['required']">*Email is required</div>
+            <div *ngIf="loginForm.email.errors.email">*Please enter valid Email Id</div>
+          </div>
+        </div> 
+        <div>
+          <input [type]="changeType?'password':'text'" placeholder="Password" class="form-control emailInput"
+            style="margin-bottom:2%;" formControlName="password">
+
+            <div *ngIf="loginForm.controls['password'].invalid && loginForm.controls['password'].touched" style="color: red;">
+            <div *ngIf="loginForm.controls['password'].errors?.['required']">*Password is required</div></div>
+
+            <!-- <span class="eye" (click)="viewPass()"[ngClass]="visible?'glyphicon glyphicon-eye-open':'glyphicon glyphicon-eye-close'"></span> -->
+          
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" /></div>
+          <span class="rememberme">Remember me </span>
+          <a href="" class="forget" style="text-decoration:none;"> forgot Password?</a>
+          <br>
+          <div style="text-align:center;">
+            <input class="button" type="submit">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class=" divImage" id="two">
+      <img class="image" src="../assets/images/linkedin-sales-solutions-B_DJO2-K22M-unsplash 1.jpg">
+      <div class="imageText">
+        <button class="btn">Higly Qualified Persons</button>
+        <img class="thumpImg" src="../assets/images/thumb image.png">
+        <p style="margin-top:14%;" class="text">Today, we create innovative solutions to the</p>
+        <p class="text"> challenges that consumers face in both their </p>
+        <p class="text">everyday lives and events</p>
+      </div>
+    </div>
+  </div>
+</div>

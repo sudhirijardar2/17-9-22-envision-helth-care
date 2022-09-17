@@ -1,0 +1,197 @@
+.container {
+    width: 100%;
+}
+
+.content {
+    background-color: #ebeaeae7;
+    width: 57%;
+    min-width: 376px;
+}
+
+.spantext {
+    margin-top: 3.5rem;
+    text-align: right;
+    margin-right: 3.5rem;
+    font-size: 1.5rem;
+    font-family: poppins
+}
+
+.upRighttext {
+    color: red;
+
+}
+
+.divImage {
+    --bs-gutter-x: 0rem;
+    width: 43%;
+    background-color: aqua;
+}
+
+.image {
+    position: relative;
+    height: 78.9rem;
+    max-width: 100%;
+    width: 100%;
+    min-height: 200px;
+    min-width: 300px;
+}
+
+.emailInput {
+    margin-top: 3.2%;
+    padding: 5.4%;
+    width: 68%;
+    margin-left: 16%;
+    border-radius: .8rem;
+    font-family: "poppins";
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #5A5A5A;
+    -webkit-appearance:auto;
+}
+
+.category {
+    margin-top: 3.2%;
+    height: 5.7rem;
+    width: 68%;
+    margin-left: 16%;
+    border-radius: .8rem;
+    font-family: "poppins";
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #5A5A5A;
+    -webkit-appearance:auto;
+}
+
+.button {
+    margin-top: 2%;
+    font-size: 1.5rem;
+    padding: 2.5%;
+    width: 68%;
+    color: #ffffff;
+    border-color: #EB5757;
+    border-radius: .8rem;
+    background-color: #EB5757;
+}
+
+.rememberme {
+    margin-right: 27%;
+    font-size: 1.2rem;
+}
+
+.forget {
+    color: red;
+    margin-right: 16%;
+    font-size: 1.3rem;
+}
+
+.form-check-input {
+    margin-left: 16%;
+    padding: 1.5% 3%;
+}
+
+.btn {
+    border-radius: 1rem;
+    margin-top: 5%;
+    background-color: #EB5757;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.1rem;
+    color: #ffffff;
+    padding: 1rem 3.5rem;
+    position: absolute;
+    left: 2.5rem;
+    font-family: "poppins"
+}
+
+.imageText {
+    width: 17%;
+    height: 15rem;
+    color: #ffffff;
+    position: absolute;
+    left: 8rem;
+    top: 35rem;
+    background-color: rgba(0, 0, 0, 0.14);
+    backdrop-filter: blur(15px);
+    mix-blend-mode: normal;
+    border-radius: 1rem;
+    font-style: normal;
+}
+
+.towertext {
+    margin-left: 5.5%;
+    font-size: 1.5rem;
+    font-family: poppins;
+}
+
+.text {
+    margin-left: 5.5%;
+    font-size: 1.4rem;
+    font-family: poppins;
+    color: #5A5A5A;
+    font-weight: 500;
+    margin-left: 22%;
+}
+
+.eye {
+    position: absolute;
+    right: 18%;
+    top: 43.2rem;
+    color: #ada0a0;
+    font-size: small;
+}
+
+.confirmpass {
+    position: absolute;
+    right: 18%;
+    top: 49.8rem;
+    color: #ada0a0;
+    font-size: small;
+}
+
+.royal {
+    position: absolute;
+    color: black;
+    top: 29rem;
+    left: 16rem;
+    font-size:large;
+    font-weight: 500;
+}
+
+.batteryicon {
+    background-color: #a19999;
+    border-radius: 100%;
+    position: absolute;
+    top:28rem;    
+    left: 9rem;
+    padding: .6rem .8rem;
+    font-size:3rem;
+}
+
+.whiteBatteryIcon{
+    background-color: #dacccc;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 23.5rem;
+    padding: .6rem .8rem;
+    font-size:3rem;
+    left: 54rem;
+    color: white;
+    backdrop-filter: blur(5px);
+}
+
+.term{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #5a5252;
+}
+
+.imageEditor{
+    position: absolute;
+    bottom: 24.5rem;
+    left: 60rem;
+    font-size:large;
+    font-weight: 500;
+    color: white;
+    font-family: poppins;
+}
+

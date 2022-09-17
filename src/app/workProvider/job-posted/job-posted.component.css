@@ -1,0 +1,130 @@
+.container-fluid {
+    background-color: #ebeaeae7;
+    height: 100%;
+}
+
+.navbar {
+    background-color: #ffffff;
+    margin-top: 5.5%;
+}
+
+
+.icons {
+    font-size: large;
+    margin-right: .5rem;
+}
+
+
+.expand_less {
+    margin-left: 28rem;
+    margin-top: 1.5rem;
+}
+
+.des_expand_less {
+    margin-left: 20rem;
+    margin-top: 3rem;
+}
+
+.rounded-circle {
+    position: absolute;
+    right: 10%;
+    top: 3%;
+}
+
+.steven {
+    position: absolute;
+    right: 5.5%;
+    top: 4.5%;
+    font-weight: 500;
+}
+
+.work {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.filter {
+    position: absolute;
+    right: 10%;
+    margin-top: 1%;
+}
+
+.work1 {
+    background-color: white;
+    height: 29rem;
+    width: 40rem;
+    margin-top: 1%;
+    margin-left: 8%;
+    border-radius: 1rem;
+}
+
+.work2 {
+    background-color: white;
+    height: 29rem;
+    width: 40rem;
+    margin-top: 1%;
+    margin-left: 3%;
+    border-radius: 1rem;
+}
+
+.workheading {
+    font-weight: 600;
+    margin-left: 3%;
+    color: black;
+}
+
+.text {
+    margin-left: 5%;
+    font-size: 1.3rem;
+    margin-top: 2.1rem;
+}
+
+.price {
+    margin-left: 5%;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.workButton {
+    background-color: #00CC00;
+    margin-left: 68%;
+    color: #ffffff;
+    padding: 2px 35px;
+    border-radius: 4px;
+}
+
+.content h2 {
+    margin-left: 8%;
+    margin-top: 1%;
+}
+
+.text1 {
+    margin-left: 3rem;
+}
+
+.line {
+    background-color: #35A918;
+    position: absolute;
+    width: 2px;
+    height: 89px;
+    left: 140px;
+    top: 298px;
+}
+
+.line2 {
+    position: absolute;
+    width: 2px;
+    height: 89px;
+    left: 588px;
+    top: 298px;
+    background: #35A918;
+}
+
+.line3 {
+    position: absolute;
+    width: 2px;
+    height: 89px;
+    left: 1033px;
+    top: 298px;
+    background: #35A918;
+}

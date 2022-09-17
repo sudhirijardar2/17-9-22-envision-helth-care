@@ -1,0 +1,111 @@
+<div class="container-fluid">
+    <img src="../../../assets/images/workProvider icon.png" class="rounded-circle" height="43px" width="43px">
+    <span class="steven">Hosp<i class="bi bi-chevron-down"></i></span>
+    <div class="row">
+        <mat-toolbar class="navbar">
+            <a mat-raised-button style="background-color:#EB5757;color:#ffffff;">
+                <i class="bi bi-people icons"></i>Create Work
+            </a>
+            <a mat-button routerLink="/workProvider/availability">
+                <i class="bi bi-people icons"></i> Availability
+            </a>
+            <!-- <mat-icon>arrow_right_alt</mat-icon> -->
+            <a mat-button routerLink="/workProvider/work-order1">
+                <i class="bi bi-people icons"></i>Work orders</a>
+            <a mat-button routerLink="/workProvider/job-posted">
+                <i class="bi bi-people icons"></i>Job-posted</a>
+            <a mat-button routerLink="/workProvider/invoices1">
+                <i class="bi bi-people icons"></i>invoices</a>
+            <a mat-button routerLink="/workProvider/history">
+                <i class="bi bi-people icons"></i> History
+            </a>
+        </mat-toolbar>
+        <div class="content">
+            <div class="row">
+                <form #createWork  >
+                    <div class="mainBox">
+                        <p class="mand_info">* Mandatory Information</p>                       
+                        <label class="mt-3">Work Name</label>
+                        <input type="text" name="workName" class="form-control">
+                        <br>
+                        <label class="mt-2">Description</label>
+                        <textarea rows="5" class="form-control" name="description" ></textarea>
+                        <br>
+                        <div class="col-12 mt-2">
+                            <div class="row">
+                                <div class="col-2">
+                                    <label>Start Date*</label>
+                                    <input type="date"  name="startDate" class="form-control">
+                                </div>
+                                <div class="col-2 ms-4">
+                                    <label>End Date*</label>
+                                    <input type="date"  class="form-control " name="endDate">
+                                </div>
+                                <div class="col-2 ms-4">
+                                    <label>Time(optional)</label>
+                                    <input type="time" name="time"  class="form-control">
+                                </div>
+                                <div class="col-2 ms-4">
+                                    <label>Skills*</label>
+                                    <select class="form-control skils" name="skill">
+                                        <option></option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                    </select>
+                                </div>
+                                <div class="col-2 ms-4">
+                                    <label>Contact*</label>
+                                    <input type="text"  class="form-control" name="contact">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-5">
+                            <div class="row">
+                                <div class="col-2">
+                                    <label>Country*</label>
+                                    <select class="form-control skils" name="country">
+                                        <option>India</option>
+                                        <option>China</option>
+                                        <option>Japan</option>
+                                    </select>
+                                </div>
+                                <div class="col-2 ms-4">
+                                    <label>Province*</label>
+                                    <input type="text" placeholder="Example" name="province"  class="form-control">
+                                </div>  
+                                <div class="col-2 ms-4">
+                                    <label>City*</label>
+                                    <select class="form-control skils" name="city">
+                                        <option>Indore</option>
+                                        <option>Dewas</option>
+                                        <option>Ujjain</option>
+                                    </select>
+                                </div>
+                                <div class="col-2 ms-4">
+                                    <label>Budget</label>
+                                    <input type="text" class="form-control" name="budget">
+                                </div>
+                                <div class="col-2 ms-4">
+                                    <label>No. of requirements*</label>
+                                    <select class="form-control skils" name="requirements">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" class="ms-0" ><label class="terms">
+                                        I read the terms & conditions and the Privacy policy
+                                    </label>
+                                </div>
+                                <div class="col-12 text text-center mt-5">
+                                    <input type="submit" value="Next" class="next">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

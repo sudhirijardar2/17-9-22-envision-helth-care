@@ -1,0 +1,212 @@
+.container-fluid {
+    background-color: #ebeaeae7;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: #ffffff;
+    margin-top: 5.5%;
+}
+
+.icons {
+    font-size: large;
+    margin-right: .5rem;
+}
+
+.rounded-circle {
+    position: absolute;
+    right: 10%;
+    top: 3%;
+    border: 2px solid #EB5757;
+}
+
+.steven {
+    position: absolute;
+    right: 6%;
+    top: 4.5%;
+    font-weight: 500;
+}
+
+.workname {
+    position: absolute;
+    width: 1150px;
+    height: 80px;
+    left: 200px;
+    top: 200px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.work {
+    position: absolute;
+    left: 28px;
+    top: 14px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.text {
+    position: absolute;
+    left: 28px;
+    right: 370px;
+    top: 35px;
+    font-size: 14px;
+}
+
+.description {
+    position: absolute;
+    width: 1150px;
+    height: 100px;
+    left: 200px;
+    top: 320px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.des {
+    position: absolute;
+    left: 28px;
+    top: 24px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.text1 {
+    position: absolute;
+    left: 28px;
+    right: 370px;
+    top: 45px;
+    font-size: 14px;
+}
+
+.sdate {
+    position: absolute;
+    width: 182px;
+    height: 42px;
+    left: 200px;
+    top: 450px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+label {
+    position: absolute;
+    top: 2px;
+    left: 6px;
+}
+
+.date p {
+    position: absolute;
+    top: 20px;
+    left: 9.38px;
+    font-size: 12px;
+    color: #5A5A5A;
+}
+
+.edate {
+    position: absolute;
+    width: 182px;
+    height: 42px;
+    left: 440px;
+    top: 450px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.time {
+    position: absolute;
+    width: 182px;
+    height: 42px;
+    left: 680px;
+    top: 450px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.skills {
+    position: absolute;
+    width: 182px;
+    height: 42px;
+    left: 920px;
+    top: 450px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.contact {
+    position: absolute;
+    width: 182px;
+    height: 42px;
+    left: 1160px;
+    top: 450px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.country {
+    position: absolute;
+    width: 182px;
+    height: 42px;
+    left: 200px;
+    top: 530px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.province {
+    position: absolute;
+    width: 182px;
+    height: 42px;
+    left: 440px;
+    top: 530px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.city {
+    position: absolute;
+    width: 182px;
+    height: 42px;
+    left: 680px;
+    top: 530px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.budget {
+    position: absolute;
+    width: 182px;
+    height: 42px;
+    left: 920px;
+    top: 530px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.requir {
+    position: absolute;
+    width: 182px;
+    height: 42px;
+    left: 1160px;
+    top: 530px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+button {
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 57px;
+    left: 575px;
+    top: 620px;
+    background: #2A7FFF;
+    border-radius: 10px ;
+    border-color: #2A7FFF;
+    color: #FFFFFF;
+}
+.skills i{
+    position: absolute;
+    left: 120px;
+    top: 20px;
+}

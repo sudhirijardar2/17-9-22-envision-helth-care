@@ -1,0 +1,77 @@
+.container-fluid {
+    background-color: #ebeaeae7;
+    height: 78.8rem;
+}
+
+.rounded-circle{
+    position: absolute;
+    right: 10%;
+    top: 3%;
+}
+
+.printer{
+    position: absolute;
+    right: 6%;
+    top: 3%;
+}
+
+.pdf{
+    position: absolute;
+    right: 3%;
+    top: 3%;
+}
+
+.content{
+    background-color:#ffffff;
+    height:68rem;
+    margin-top:5rem;
+    width:65rem;
+    margin-left: 47.5rem;
+}
+
+.paid{
+    padding:.2rem  3rem;
+    background-color:#00CC00;
+    color: #ffffff;
+    margin-top: 1rem;
+    margin-left:53rem;
+}
+
+.invoice{
+    font-weight: 600;
+    font-size:2.8rem;
+    margin-left: 4rem;
+}
+
+.client_bank{
+    font-weight: 600;
+    font-size:1.4rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+
+.bottomDiv{
+    background-color: #FFDC27;
+    font-weight:600;
+    font-size: 1.2rem;
+    height:18rem;
+}
+
+.hr{
+    height:2px;
+    width:88%;
+    margin-left:4rem !important;
+    font-weight:600;
+    background-color: black;
+    margin:0.3rem ;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color:black;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: .5rem;
+  margin-top: .2rem;
+}

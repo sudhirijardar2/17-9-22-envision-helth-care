@@ -1,0 +1,92 @@
+<div class="container-fluid">
+    <img src="../../../assets/images/profile img'.jpg" class="rounded-circle" height="43px" width="43px">
+    <span class="steven">Steven<i class="bi bi-chevron-down"></i></span>
+    <div class="row">
+        <mat-toolbar class="navbar">
+            <a mat-button routerLink="/home">
+                <i class="bi bi-bag icons"></i>New Work
+            </a>
+            <a mat-button routerLink="/pending">
+                <mat-icon>schedule</mat-icon> Pending
+            </a>
+            <!-- <mat-icon>arrow_right_alt</mat-icon> -->
+            <a mat-button routerLink="/work_order">
+                <i class="bi bi-file-text icons"></i>Work orders</a>
+            <a mat-button routerLink="/invoices" style="background-color:#EB5757;color:#ffffff;text-decoration:none;">
+                <!-- (click)="activePage()" [ngStyle]="{'background-color':isActiveProject? 'green' : 'white'}" -->
+                <i class="bi bi-textarea icons"></i>invoices
+            </a>
+            <a mat-button routerLink="/history">
+                <i class="bi bi-people icons"></i> History
+            </a>
+        </mat-toolbar>
+        <div class="content">
+            <span class="filter"><i class="bi bi-search me-4"></i>Filter <i class="bi bi-sliders ms-2"></i></span>
+            <div class="row">
+                <div class="col-9 viewBox1">
+                    <div class="workBox">
+                        <span class="work">Work 1</span>
+                        <p class="text">Secondary text lorem ipsum dolor sit amet ham dola sit amti, consecrue.
+                            Secondary text lorem
+                            ipsum dolor sit amet ham dola sit amti,<br>consecrue. Amount - $ 200 </p>
+                    </div>
+                    <div class="buttonBox">
+                        <button mat-raised-button class="view">View</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-9 viewBox">
+                    <div class="workBox">
+                        <span class="work">Work 1</span>
+                        <p class="text">Secondary text lorem ipsum dolor sit amet ham dola sit amti, consecrue.
+                            Secondary text lorem
+                            ipsum dolor sit amet ham dola sit amti,<br>consecrue. Amount - $ 200 </p>
+                    </div>
+                    <div class="buttonBox">
+                        <button mat-raised-button class="pending">Pending</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-9 viewBox">
+                    <div class="workBox">
+                        <span class="work">Work 1</span>
+                        <p class="text">Secondary text lorem ipsum dolor sit amet ham dola sit amti, consecrue.
+                            Secondary text lorem
+                            ipsum dolor sit amet ham dola sit amti,<br>consecrue. Amount - $ 200 </p>
+                    </div>
+                    <div class="buttonBox">
+                        <button mat-raised-button class="new">New</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-9 viewBox">
+                    <div class="workBox">
+                        <span class="work">Work 1</span>
+                        <p class="text">Secondary text lorem ipsum dolor sit amet ham dola sit amti, consecrue.
+                            Secondary text lorem
+                            ipsum dolor sit amet ham dola sit amti,<br>consecrue. Amount - $ 200 </p>
+                    </div>
+                    <div class="buttonBox">
+                        <button routerLink="/invoice/paid" mat-raised-button class="paid">Paid</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-9 viewBox">
+                    <div class="workBox">
+                        <span class="work">Work 1</span>
+                        <p class="text">Secondary text lorem ipsum dolor sit amet ham dola sit amti, consecrue.
+                            Secondary text lorem
+                            ipsum dolor sit amet ham dola sit amti,<br>consecrue. Amount - $ 200 </p>
+                    </div>
+                    <div class="buttonBox">
+                        <button mat-raised-button class="cancel">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+<div class="container-fluid">
+    <img src="../../../assets/images/profile img'.jpg" class="rounded-circle" height="43px" width="43px">
+    <span class="steven">Steven<i class="bi bi-chevron-down"></i></span>
+    <div class="row">
+        <mat-toolbar class="navbar">
+            <a mat-button routerLink="/home">
+                <i class="bi bi-bag icons"></i>New Work
+            </a>
+            <a mat-button routerLink="/pending" style="background-color:#EB5757;color:#ffffff;text-decoration:none;">
+                <mat-icon>schedule</mat-icon> Pending
+            </a>
+            <!-- <mat-icon>arrow_right_alt</mat-icon> -->
+            <a mat-button routerLink="/work_order">
+                <i class="bi bi-file-text icons"></i>Work orders</a>
+            <a mat-button routerLink="/invoices">
+                <!-- (click)="activePage()" [ngStyle]="{'background-color':isActiveProject? 'green' : 'white'}" -->
+                <i class="bi bi-textarea icons"></i>invoices
+            </a>
+            <a mat-button routerLink="/history" style="text-decoration:none;">
+                <i class="bi bi-people icons"></i> History
+            </a>
+        </mat-toolbar>
+        <div class="content">
+            <span class="filter"><i class="bi bi-search me-4"></i>Filter <i class="bi bi-sliders ms-2"></i></span>
+            <div class="row">
+                <div class="work1">
+                    <span class="workheading"> Work 1</span>
+                    <mat-icon class="expand_less">expand_less</mat-icon>
+                    <p class="text">Surgical operation</p>
+                    <p class="text">Dressing</p>
+                    <p class="text">12 hrs work time</p>
+                    <p class="text" style="font-weight:600;">Base Pay</p>
+                    <span class="price">$12000</span>
+                    <button mat-raised-button class="workButton">Pending</button>
+                </div>
+                <div class="work2">
+                    <span class="workheading">Work 2</span>
+                    <mat-icon class="expand_less">expand_less</mat-icon>
+                    <p class="text">Surgical operation</p>
+                    <p class="text">Dressing</p>
+                    <p class="text">12 hrs work time</p>
+                    <p class="text" style="font-weight:600;">Base Pay</p>
+                    <span class="price">$12000</span>
+                    <button mat-raised-button class="workButton">Pending</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

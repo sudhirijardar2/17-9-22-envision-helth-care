@@ -1,0 +1,91 @@
+.container-fluid {
+    background-color: #ebeaeae7;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: #ffffff;
+    margin-top: 5.5%;
+}
+
+
+.icons {
+    font-size: large;
+    margin-right: .5rem;
+}
+
+.filter {
+    position: absolute;
+    right: 15%;
+    margin-top: 1%;
+}
+
+.expand_less {
+    margin-left: 30rem;
+    margin-top: 1.5rem;
+}
+
+.des_expand_less {
+    margin-left: 20rem;
+    margin-top: 3rem;
+}
+
+.rounded-circle{
+    position: absolute;
+    right: 10%;
+    top: 3%;
+}
+
+.steven{
+    position: absolute;
+    right: 5.5%;
+    top: 4.5%;
+    font-weight: 500;
+}
+
+.work{
+    font-weight: 600;
+    font-size:1.5rem;
+}
+
+.filter {
+    position: absolute;
+    right: 10%;
+    margin-top: 1%;
+}
+
+.work1 {
+    background-color: white;
+    height: 20rem;
+    width: 45rem;
+    margin-top: 3%;
+    margin-left: 8%;
+    border-radius: 1rem;
+}
+
+.work2 {
+    background-color: white;
+    height: 20rem;
+    width: 45rem;
+    margin-top: 3%;
+    margin-left: 3%;
+    border-radius: 1rem;
+    
+}
+.workButton {
+    background-color:#00CC00;
+    color: #ffffff;
+    float: right;
+    margin-right: 10px;
+}
+.pb{
+    width: 60%;
+    margin-left: 30px;
+    padding-top: 15px;
+ }
+ .img{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+ }
+

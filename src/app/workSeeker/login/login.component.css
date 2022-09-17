@@ -1,0 +1,128 @@
+
+.container {
+    width: 100%;
+}
+
+.content {
+    background-color: #ebeaeae7;
+    width: 60%;
+    min-width: 376px;
+}
+
+.spantext {
+    margin-top: 3.5rem;
+    text-align: right;
+    margin-right: 3.5rem;
+    font-size: 1.2rem;
+    font-family: "poppins"
+}
+
+.upRighttext {
+    color: red;
+}
+
+.divImage {
+    --bs-gutter-x: 0rem;
+    width: 40%;
+    background-color: aqua;
+}
+
+.image {
+    position: relative;
+    height: 78.9rem;
+    max-width: 100%;
+    width: 100%;
+    min-height: 200px;
+    min-width: 300px;
+}
+
+.emailInput {
+    margin-top: 5%;
+    padding: 5.4%;
+    width: 68%;
+    margin-left: 16%;
+    border-radius: .8rem;
+    font-family: "poppins";
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #5A5A5A;
+}
+
+.button {
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    width: 35.5rem;
+    margin-left:-11rem;
+    border-radius: .8rem;
+    color: black;
+    border-color: rgb(38, 33, 33);
+}
+
+.rememberme {
+    margin-right:14rem;
+    font-size: 1.2rem;
+}
+
+.forget {
+    color: red;
+    margin-right: 7.5rem;
+    font-size: 1.3rem;
+}
+
+.form-check-input {
+    margin-left: 16%;
+    padding: 1.5% 3%;
+}
+
+.imageText {
+    width: 35%;
+    height: 24rem;
+    position: absolute;
+    bottom: 4rem;
+    right: 3.6rem;
+    color: #ffffff;
+    /* transform: translate(-50%, -50%); */
+    /* z-index: 2; */
+    background-color: rgba(255, 242, 242, 0.13);
+    backdrop-filter: blur(100px);
+    border-radius: 1rem;
+    font-style: normal;
+}
+
+.btn {
+    border-radius: 1rem;
+    margin-top: 5%;
+    background-color: #EB5757;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.1rem;
+    color: #ffffff;
+    padding: 1rem 3.5rem;
+    position: absolute;
+    left: 2.5rem;
+    font-family: "poppins"
+}
+
+.text {
+    margin-left: 5.5%;
+    font-size: 2rem;
+    font-family: "poppins";
+    margin-top: 2rem;
+}
+
+.eye {
+    position: absolute;
+    left: 64rem;
+    top: 39.8rem;
+    color: #ada0a0;
+    font-size: small;
+}
+
+.thumpImg {
+    position: absolute;
+    top: 3.8rem;
+    left: 7.2%;
+    height: 1.6rem;
+    width: 1.5rem;
+}

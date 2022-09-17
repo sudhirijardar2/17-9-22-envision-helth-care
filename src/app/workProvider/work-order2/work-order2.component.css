@@ -1,0 +1,190 @@
+.container-fluid {
+    background-color: #ebeaeae7;
+}
+
+.container {
+    height: 50px;
+    background-color: #EB5757;
+    border-radius: 10px;
+    position: absolute;
+    width: 625px;
+    height: 63px;
+    left: 124px;
+    top: 185px;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.applicantname {
+    position: absolute;
+    width: 166px;
+    height: 30px;
+    left: 50px;
+    top: 17px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.a80 {
+    position: absolute;
+    width: 43px;
+    height: 30px;
+    left: 550px;
+    top: 15px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #00CC00;
+}
+
+.container2 {
+    position: absolute;
+    width: 1317px;
+    height: 445px;
+    left: 124px;
+    top: 286px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.description {
+    position: absolute;
+    width: 625.35px;
+    height: 47.26px;
+    left: 90px;
+    top: 50px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.workdetails {
+    position: absolute;
+    width: 887.6px;
+    height: 39.38px;
+    left: 145.4px;
+    top: 130px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.d2 {
+    position: absolute;
+    width: 950px;
+    height: 228px;
+    left: 145.4px;
+    top: 180px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    letter-spacing: 0.25px;
+
+    color: #000000;
+}
+
+.sideline {
+    position: absolute;
+    width: 5.73px;
+    height: 164px;
+    left: 83px;
+    top: 138px;
+
+    background: #EB5757;
+}
+
+
+.navbar {
+    background-color: #ffffff;
+    margin-top: 5.5%;
+    
+}
+
+.rounded-circle {
+    position: absolute;
+    right: 10%;
+    top: 3%;
+}
+
+.content {
+    height: 63.5rem;
+}
+
+.steven {
+    position: absolute;
+    right: 5.5%;
+    top: 4.5%;
+    font-weight: 500;
+}
+
+.icons {
+    font-size: large;
+    margin-right: .5rem;
+}
+
+.mainBox {
+    margin-top: 2rem;
+    margin-left: 18.2%;
+    width: 102rem;
+}
+
+.mand_info {
+    font-size: small;
+}
+
+
+label {
+    font-size: 1rem;
+}
+
+input {
+    font-size: 1.2rem;
+    padding: 2rem;
+}
+
+select {
+    font-size: 1.2rem;
+    height: 4.2rem;
+}
+
+.form-control {
+    -webkit-appearance: auto;
+}
+
+.checkbox {
+    margin-top: 2.5rem;
+}
+
+.terms {
+    font-size: 1.4rem !important;
+}
+
+.next {
+    width: 35rem;
+    padding: 1rem;
+    background-color: #EB5757;
+    border-radius: .5rem;
+    border-color: #EB5757;
+    color: #ffffff;
+}

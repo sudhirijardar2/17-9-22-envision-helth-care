@@ -1,0 +1,75 @@
+.container-fluid {
+    background-color: #ebeaeae7;
+}
+
+.navbar {
+    background-color: #ffffff;
+    margin-top: 5.5%;
+}
+
+.rounded-circle{
+    position: absolute;
+    right: 10%;
+    top: 3%;
+}
+
+.content{
+height: 63.5rem;
+}
+
+.steven{
+    position: absolute;
+    right: 5.5%;
+    top: 4.5%;
+    font-weight: 500;
+}
+
+.icons {
+    font-size: large;
+    margin-right: .5rem;
+}
+
+.mainBox{
+    margin-top: 2rem;
+    margin-left:18.2%;
+    width: 102rem;
+}
+
+.mand_info{
+    font-size: small;
+}
+
+
+label{
+    font-size:1rem;
+}
+
+input{
+    font-size:1.2rem;
+    padding: 2rem;
+}
+
+select{
+    font-size:1.2rem;
+    height: 4.2rem;
+}
+
+.form-control{
+    -webkit-appearance: auto;
+}
+.checkbox{
+    margin-top: 2.5rem;
+}
+
+.terms{
+    font-size:1.4rem !important;
+}
+
+.next{
+    width: 35rem;
+    padding: 1rem;
+    background-color: #EB5757;
+    border-radius: .5rem;
+    border-color: #EB5757;
+    color: #ffffff;
+}
